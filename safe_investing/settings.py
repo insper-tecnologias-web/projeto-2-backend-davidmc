@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-fssl^$v29z_81fen1uvl1yfql8%#j3#lge1^+wv8hj=&$(ftc^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['crypto-oracle.vercel.app/','localhost', '5173']
+CSRF_TRUSTED_ORIGINS = ['https://crypto-oracle.vercel.app/']
 
 CORS_ORIGIN_ALLOW_ALL = True
 # Application definition
