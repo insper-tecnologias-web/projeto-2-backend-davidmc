@@ -29,6 +29,9 @@ ALLOWED_HOSTS = ['projeto-2-backend-davidmc.vercel.app/','localhost', '127.0.0.1
 CSRF_TRUSTED_ORIGINS = ['https://projeto-2-backend-davidmc.vercel.app/']
 
 CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOWED_ORIGINS = [
+    "https://crypto-oracle.vercel.app/"
+]
 
 INSTALLED_APPS = [
     'rest_framework',
