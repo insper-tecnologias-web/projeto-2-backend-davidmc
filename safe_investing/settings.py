@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-fssl^$v29z_81fen1uvl1yfql8%#j3#lge1^+wv8hj=&$(ftc^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['projeto-2-backend-davidmc.vercel.app', 'localhost', '127.0.0.1:8000']
-CSRF_TRUSTED_ORIGINS = ['https://projeto-2-backend-davidmc.vercel.app']
+ALLOWED_HOSTS = ['crypto-oracle-backend.onrender.com', 'localhost', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://crypto-oracle-backend.onrender.com']
 
 
 # CORS_ORIGIN_ALLOW_ALL = True
