@@ -83,8 +83,8 @@ WSGI_APPLICATION = 'safe_investing.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'postgres://oracleuser:g3htJip9tcROB2TCZaCVyKmb4t6Gailk@dpg-cl8ej8qvokcc73auqdlg-a.oregon-postgres.render.com/crypto_oracle': dj_database_url.config(
-        default='',
+     dj_database_url.config(
+        default='postgres://oracleuser:g3htJip9tcROB2TCZaCVyKmb4t6Gailk@dpg-cl8ej8qvokcc73auqdlg-a.oregon-postgres.render.com/crypto_oracle',
         conn_max_age=600,
         ssl_require=not DEBUG
     )
